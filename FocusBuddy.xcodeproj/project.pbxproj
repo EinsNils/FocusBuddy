@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CD4B432E2C275CF400E26343 /* FocusBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B432D2C275CF400E26343 /* FocusBuddyApp.swift */; };
-		CD4B43302C275CF400E26343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B432F2C275CF400E26343 /* ContentView.swift */; };
 		CD4B43322C275CF500E26343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B43312C275CF500E26343 /* Assets.xcassets */; };
 		CD4B43362C275CF500E26343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B43352C275CF500E26343 /* Preview Assets.xcassets */; };
+		CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A2A2C276453005454C0 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD4B432A2C275CF400E26343 /* FocusBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4B432D2C275CF400E26343 /* FocusBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBuddyApp.swift; sourceTree = "<group>"; };
-		CD4B432F2C275CF400E26343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD4B43312C275CF500E26343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4B43332C275CF500E26343 /* FocusBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusBuddy.entitlements; sourceTree = "<group>"; };
 		CD4B43352C275CF500E26343 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDFD9A2A2C276453005454C0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				CD4B432D2C275CF400E26343 /* FocusBuddyApp.swift */,
-				CD4B432F2C275CF400E26343 /* ContentView.swift */,
+				CDFD9A2A2C276453005454C0 /* MainTabView.swift */,
 				CD4B43312C275CF500E26343 /* Assets.xcassets */,
 				CD4B43332C275CF500E26343 /* FocusBuddy.entitlements */,
 				CD4B43342C275CF500E26343 /* Preview Content */,
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4B43302C275CF400E26343 /* ContentView.swift in Sources */,
 				CD4B432E2C275CF400E26343 /* FocusBuddyApp.swift in Sources */,
+				CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
