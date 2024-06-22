@@ -11,7 +11,7 @@ import SwiftUI
 struct FocusBuddyApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            ContentView()
         }
     }
 }

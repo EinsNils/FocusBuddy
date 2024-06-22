@@ -11,6 +11,8 @@
 		CD4B43322C275CF500E26343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B43312C275CF500E26343 /* Assets.xcassets */; };
 		CD4B43362C275CF500E26343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B43352C275CF500E26343 /* Preview Assets.xcassets */; };
 		CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A2A2C276453005454C0 /* MainTabView.swift */; };
+		CDFD9A382C2766DE005454C0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A372C2766DE005454C0 /* SplashScreen.swift */; };
+		CDFD9A3A2C2767AD005454C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A392C2767AD005454C0 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CD4B43332C275CF500E26343 /* FocusBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusBuddy.entitlements; sourceTree = "<group>"; };
 		CD4B43352C275CF500E26343 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDFD9A2A2C276453005454C0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CDFD9A372C2766DE005454C0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CDFD9A392C2767AD005454C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,11 @@
 		CD4B432C2C275CF400E26343 /* FocusBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				CD4B432D2C275CF400E26343 /* FocusBuddyApp.swift */,
-				CDFD9A2A2C276453005454C0 /* MainTabView.swift */,
+				CDFD9A312C276643005454C0 /* App */,
+				CDFD9A2E2C276613005454C0 /* Model */,
+				CDFD9A2D2C27660C005454C0 /* Screens */,
+				CDFD9A302C276620005454C0 /* Utils */,
+				CDFD9A2F2C276619005454C0 /* ViewModel */,
 				CD4B43312C275CF500E26343 /* Assets.xcassets */,
 				CD4B43332C275CF500E26343 /* FocusBuddy.entitlements */,
 				CD4B43342C275CF500E26343 /* Preview Content */,
@@ -67,6 +74,85 @@
 				CD4B43352C275CF500E26343 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDFD9A2D2C27660C005454C0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD9A342C27665F005454C0 /* Community */,
+				CDFD9A322C276653005454C0 /* Home */,
+				CDFD9A332C276659005454C0 /* Settings */,
+				CDFD9A352C276688005454C0 /* Splash */,
+				CDFD9A362C27668F005454C0 /* Welcom */,
+				CDFD9A392C2767AD005454C0 /* ContentView.swift */,
+				CDFD9A2A2C276453005454C0 /* MainTabView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CDFD9A2E2C276613005454C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDFD9A2F2C276619005454C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDFD9A302C276620005454C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDFD9A312C276643005454C0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B432D2C275CF400E26343 /* FocusBuddyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CDFD9A322C276653005454C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CDFD9A332C276659005454C0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CDFD9A342C27665F005454C0 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		CDFD9A352C276688005454C0 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD9A372C2766DE005454C0 /* SplashScreen.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CDFD9A362C27668F005454C0 /* Welcom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFD9A382C2766DE005454C0 /* SplashScreen.swift in Sources */,
 				CD4B432E2C275CF400E26343 /* FocusBuddyApp.swift in Sources */,
+				CDFD9A3A2C2767AD005454C0 /* ContentView.swift in Sources */,
 				CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

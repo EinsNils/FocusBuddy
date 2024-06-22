@@ -9,10 +9,6 @@ import SwiftUI
 
 struct MainTabView: View {
     
-    init(){
-
-    }
-    
     var body: some View {
         TabView{
             placeholderItemView("Home")
