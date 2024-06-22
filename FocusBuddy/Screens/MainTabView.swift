@@ -11,7 +11,7 @@ struct MainTabView: View {
     
     var body: some View {
         TabView{
-            placeholderItemView("Home")
+            HomeScreen()
                 .tabItem {
                     Image(systemName: Tab.home.icon)
                     Text(Tab.home.title)
@@ -19,9 +19,10 @@ struct MainTabView: View {
             
             placeholderItemView("Home")
                 .tabItem {
-                    Image(systemName: Tab.communities.icon)
-                    Text(Tab.communities.title)
+                    Image(systemName: Tab.task.icon)
+                    Text(Tab.task.title)
                 }
+            
             
             placeholderItemView("Home")
                 .tabItem {
@@ -49,7 +50,7 @@ extension MainTabView{
     }
     
     private enum Tab: String{
-        case communities, home, settings
+        case communities, home, settings, task
         
         fileprivate var title: String{
             return rawValue.capitalized
@@ -63,7 +64,10 @@ extension MainTabView{
                 return "house"
             case .settings:
                 return "gear"
+            case .task:
+                return "paperclip"
             }
+            
         }
     }
 }

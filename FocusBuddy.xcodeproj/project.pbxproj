@@ -13,6 +13,8 @@
 		CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A2A2C276453005454C0 /* MainTabView.swift */; };
 		CDFD9A382C2766DE005454C0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A372C2766DE005454C0 /* SplashScreen.swift */; };
 		CDFD9A3A2C2767AD005454C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A392C2767AD005454C0 /* ContentView.swift */; };
+		CDFD9A3C2C276967005454C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A3B2C276967005454C0 /* HomeScreen.swift */; };
+		CDFD9A402C276E43005454C0 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A3F2C276E43005454C0 /* WelcomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CDFD9A2A2C276453005454C0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		CDFD9A372C2766DE005454C0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		CDFD9A392C2767AD005454C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDFD9A3B2C276967005454C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CDFD9A3F2C276E43005454C0 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		CDFD9A322C276653005454C0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CDFD9A3B2C276967005454C0 /* HomeScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		CDFD9A362C27668F005454C0 /* Welcom */ = {
 			isa = PBXGroup;
 			children = (
+				CDFD9A3F2C276E43005454C0 /* WelcomeScreen.swift */,
 			);
 			path = Welcom;
 			sourceTree = "<group>";
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFD9A402C276E43005454C0 /* WelcomeScreen.swift in Sources */,
 				CDFD9A382C2766DE005454C0 /* SplashScreen.swift in Sources */,
+				CDFD9A3C2C276967005454C0 /* HomeScreen.swift in Sources */,
 				CD4B432E2C275CF400E26343 /* FocusBuddyApp.swift in Sources */,
 				CDFD9A3A2C2767AD005454C0 /* ContentView.swift in Sources */,
 				CDFD9A2B2C276453005454C0 /* MainTabView.swift in Sources */,
