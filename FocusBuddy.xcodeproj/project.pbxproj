@@ -15,6 +15,7 @@
 		CDFD9A3A2C2767AD005454C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A392C2767AD005454C0 /* ContentView.swift */; };
 		CDFD9A3C2C276967005454C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A3B2C276967005454C0 /* HomeScreen.swift */; };
 		CDFD9A402C276E43005454C0 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A3F2C276E43005454C0 /* WelcomeScreen.swift */; };
+		CDFD9A422C28273F005454C0 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD9A412C28273F005454C0 /* SettingsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CDFD9A392C2767AD005454C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDFD9A3B2C276967005454C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		CDFD9A3F2C276E43005454C0 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		CDFD9A412C28273F005454C0 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		CDFD9A332C276659005454C0 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				CDFD9A412C28273F005454C0 /* SettingsScreen.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFD9A402C276E43005454C0 /* WelcomeScreen.swift in Sources */,
+				CDFD9A422C28273F005454C0 /* SettingsScreen.swift in Sources */,
 				CDFD9A382C2766DE005454C0 /* SplashScreen.swift in Sources */,
 				CDFD9A3C2C276967005454C0 /* HomeScreen.swift in Sources */,
 				CD4B432E2C275CF400E26343 /* FocusBuddyApp.swift in Sources */,

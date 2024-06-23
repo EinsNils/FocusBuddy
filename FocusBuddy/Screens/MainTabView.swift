@@ -24,7 +24,7 @@ struct MainTabView: View {
                 }
             
             
-            placeholderItemView("Home")
+            SettingsScreen()
                 .tabItem {
                     Image(systemName: Tab.settings.icon)
                     Text(Tab.settings.title)
